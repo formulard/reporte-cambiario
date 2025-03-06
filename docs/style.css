@@ -30,6 +30,10 @@ main {
 .quarto-content {
   margin: 0;
 }
+
+#title-block-header {
+  display: none;
+}
 /*----------------- Footer  ---------------------*/
 footer {
   padding: 25px 0 10px 0;
