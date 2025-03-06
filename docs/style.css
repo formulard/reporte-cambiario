@@ -120,16 +120,17 @@ h3 {
   font-variant-numeric: tabular-nums;
   margin-top: 1rem;
   font-size: 0.8rem;
-  border: 1px solid hsl(213, 33%, 93%);
   border-radius: 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-bottom: solid 1px #212529;
 }
 
 .table-header {
-  background-color: hsl(213, 45%, 97%);
+  background-color: #212529;
   border-bottom-color: hsl(213, 33%, 93%);
   border-bottom-width: 1px;
-  color: hsl(213, 13%, 33%);
+  color: white;
 }
 
 
