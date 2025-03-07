@@ -158,7 +158,7 @@ report_table <- function(tasas_to_table) {
         lag_gap = colDef(show = FALSE),
         lag_date = colDef(show = FALSE),
         date = colDef(show = FALSE),
-        entidad = colDef(name = "Entidad", footer = "Promedio"),
+        entidad = colDef(name = "Entidad", footer = "Promedio", minWidth = 125),
         sell = colDef(
           name = "Venta",
           align = "right",
