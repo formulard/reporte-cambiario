@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 10,13,18 * * *'
+    - cron: '30 11,12,14,17,19 * * *'
   workflow_dispatch:
 
 name: Update report
