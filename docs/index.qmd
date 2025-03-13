@@ -166,6 +166,11 @@ div(
     shiny::icon("calendar-days", class = "icon"),
     glue("Compración respecto al {previous_date$label}")
   ),
+  div(
+    class = "info-container",
+    shiny::icon("clock", class = "icon"),
+    glue("Última actualización: {format(Sys.time(), '%I:%M %p')}")
+  ),
 )
 ```
 
