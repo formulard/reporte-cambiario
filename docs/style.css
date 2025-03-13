@@ -69,9 +69,14 @@ footer {
   text-align: center !important;
 }
 
+.header-text h1 {
+  font-size: 1.5rem;
+}
+
 .header-text p {
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .hr {
