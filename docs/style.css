@@ -292,3 +292,7 @@ h3 {
     font-size: 13px;
   }
 }
+
+.callout-body-container p {
+  font-size: 14px;
+}

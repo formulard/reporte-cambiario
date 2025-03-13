@@ -248,8 +248,20 @@ ai_text |>
 
 </main>
 
+::: {.callout-note title="Notas" appearance="simple"}
+1- Para el reporte se consultan las tasas de compra y venta oficiales de las páginas web de las entidades financieras.
+
+2- Se actualiza automáticamente en el horario siguiente: 9:30 AM, 10:30 AM, 12:30 PM, 03:30 PM y a las 50:30 PM
+
+3- Se utilizan promedios simples a lo largo del documento; ninguna de estas medidas es ponderada.
+
+4- El análisis con Inteligencia Artificial no es 100% fiable; siempre debe examinarse con ojo crítico.
+:::
+
+<br>
 <footer>
 Powered by <img src="assets/formula.png" class="logo-footer"> | info@formulard.com
 </footer>
 
 </div>
+
