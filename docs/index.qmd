@@ -134,6 +134,9 @@ previous_date <- tibble::lst(
   day  = day(date) |> str_pad(2, "left", "0"),
   label = glue("{day} de {label_mes} de {year}")
 )
+
+time_in_dr <-   Sys.time() |>
+    lubridate::with_tz(tzone = "America/Santo_Domingo")
 ```
 
 <header>
@@ -169,7 +172,7 @@ div(
   div(
     class = "info-container",
     shiny::icon("clock", class = "icon"),
-    glue("Última actualización: {format(Sys.time(), '%I:%M %p')}")
+    glue("Última actualización: {format(time_in_dr, '%I:%M %p')}")
   ),
 )
 ```
